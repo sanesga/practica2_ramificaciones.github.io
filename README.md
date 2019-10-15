@@ -3,6 +3,28 @@
 
 <img src="img/icono1.png" alt="icono git" with="200" height="200">
 
+`¿Qué es git y para qué se utiliza?`
+
+Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
+
+`Características`
+
+- Gestión distribuida.
+- Muy potente. Capaz de manejar grandes proyectos.
+- No depende de un repositorio central.
+- Software libre.
+- Mantiene un historial completo de versiones.
+- Desplazamiento ágil entre las revisiones del código.
+- Velocidad.
+- Diseño sencillo.
+- Sistema de trabajo por ramas.
+
+`Objetivo de la práctica`
+
+Esta práctica se centra en la creación y utilización de ramas, con la posibilidad de utilizar **Git-flow**.
+Git-flow es un conjunto de extensiones para Git, basado en el modelo de ramificaciones de Vincent Driessen que brinda una mayor organización a nuestro repositorio y mayor rapidez en el flujo de trabajo automatizando procesos.
+
+
 ## 1. Crear un repositorio con las ramas de máster y develop
 
 ### 1.1. Creamos el repositorio remoto
@@ -139,15 +161,15 @@ git push origin master
   ![Screenshot](img/captura10.png)
 
 
-  ### 2.4. Generamos la feature 2. Seguimos los mismos pasos que antes y modificamos el mismo fichero,añadiendo otro párrafo
+### 2.4. Generamos la feature 2. Seguimos los mismos pasos que antes y modificamos el mismo fichero,añadiendo otro párrafo
 
   -\<p>Párrafo añadido en la feature 2\</p>
 
-  ### 2.5. Generamos la feature 3. En esta, creamos un nuevo fichero de texto.
+### 2.5. Generamos la feature 3. En esta, creamos un nuevo fichero de texto.
   
   nuevoFichero.txt
 
-  ### 2.6. Una vez creado todo en local y remoto, verificamos.
+### 2.6. Una vez creado todo en local y remoto, verificamos.
 
   ```
   git branch -a
@@ -160,7 +182,7 @@ git push origin master
   ![Screenshot](img/captura12.png)
 
 
-  ### 2.7. Fusionamos las ramas. Las ramas de tipo feature se fusionan únicamente con la rama develop. Procedemos a ello. Utlizaremos el siguiente comando, que fusiona la rama automáticamente y añadimos -k para que no la elimine.
+### 2.7. Fusionamos las ramas. Las ramas de tipo feature se fusionan únicamente con la rama develop. Procedemos a ello. Utlizaremos el siguiente comando, que fusiona la rama automáticamente y añadimos -k para que no la elimine.
 
   - Fusionamos feature 1. Se fusiona sin conflictos.
 
@@ -404,7 +426,7 @@ git push origin master
 ## 7. Documentar el proceso completo en Github Pages o Gitlab Pages.
 
 
-
+ [https://sanesga.github.io/practica2_ramificaciones.github.io/](https://sanesga.github.io/practica2_ramificaciones.github.io/)
 
 
 
